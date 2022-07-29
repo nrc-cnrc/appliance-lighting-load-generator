@@ -1,0 +1,58 @@
+<opt>
+    <!-- Sim parameters-->
+    <sim_parameters>
+        <lighting_calibration>0.00643485973269886</lighting_calibration>
+        <appliance_calibration>2.52628443733964</appliance_calibration>
+        <lightning_threshold mean="0" std_dev="1"/>
+        <!-- Start Day of the week [1=Sunday] -->
+        <start_day>3</start_day>
+        <!-- Unallocated baseload demand [W]-->
+        <base_load>50</base_load>
+        <!-- Standard deviation of baseload demand [W]-->
+        <base_dev>10</base_dev>
+    </sim_parameters>
+    <inputs>
+        <!-- Number of occupants [1-5] -->
+        <num_of_occ>2</num_of_occ>
+        <!-- Path to irradiance file -->
+        <irr_path>climate/CambridgeBay.out</irr_path>
+        <!-- Lighting fixture details -->
+        <lighting_fixtures>
+            <!-- Rated power [W] of each fixture -->
+            <fixture power="11" description="Other - LED"/>
+            <fixture power="11" description="Other - LED"/>
+            <fixture power="11" description="Other - LED"/>
+            <fixture power="11" description="Other - LED"/>
+            <fixture power="11" description="Other - LED"/>
+            <fixture power="11" description="Other - LED"/>
+            <fixture power="11" description="Other - LED"/>
+            <fixture power="11" description="Other - LED"/>
+            <fixture power="11" description="Other - LED"/>
+            <fixture power="11" description="Other - LED"/>
+            <fixture power="11" description="Other - LED"/>
+            <fixture power="11" description="Other - LED"/>
+            <fixture power="16" description="Tubes - T8_Short"/>
+        </lighting_fixtures>
+        <cold_appliances>
+            <!-- Cold appliances -->
+            <!-- UEC is the unit energy consumption [kWh/yr] -->
+            <!-- Base_cycles: Base (uncalibrated) number of cycles per year -->
+            <!-- Mean_cycle_L: Mean cycle length [min] -->
+            <!-- Restart_Delay: Delay restart after cycle [min] -->
+            <appliance uec="420" base_cycles="6116" mean_cycle_L="35" restart_delay="35" description="Modern fridge"/>
+        </cold_appliances>
+        <general_appliances>
+            <appliance>Microwave</appliance>
+            <appliance>Vacuum</appliance>
+            <appliance>Large_Element_1_Elec</appliance>
+            <appliance>Small_Element_1_Elec</appliance>
+            <appliance>Oven_Elec</appliance>
+            <appliance>Dishwasher</appliance>
+            <appliance>Clothes_Dryer_Elec</appliance>
+            <appliance>Clothes_Washer</appliance>
+            <appliance>LCD_TV</appliance>
+            <appliance>VCR</appliance>
+            <appliance>Stereo</appliance>
+        </general_appliances>
+    </inputs>
+</opt>
