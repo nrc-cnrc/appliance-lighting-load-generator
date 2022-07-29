@@ -75,7 +75,7 @@ my $hInput = XMLin($sInputFile);
 # Parse the appliance database
 my $hApplianceData = XMLin($ApplianceData);
 
-print "\n   Appliance_Lighting_Generator.pl Copyright (C) 2019\n\n";
+print "\n   Appliance_Lighting_Generator.pl Copyright (C) 2022\n\n";
 print "   This program comes with ABSOLUTELY NO WARRANTY\n";
 print "   This is free software, and you are welcome to redistribute it\n";
 print "   under certain conditions\n\n";

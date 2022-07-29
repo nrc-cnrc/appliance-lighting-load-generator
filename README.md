@@ -65,7 +65,7 @@ All items in **sim_parameters** shown in the example input files are required fo
 ### Inputs
 The **inputs** section is divided into several subsections:
    1. **num_of_occ** is the number of dwelling occupants [1-5];
-   2. **irr_path** is the relative path the to global horizontal irradiance data [W/m2]. The data must be tab or space delimited, with the irradiance data in the *second* column. The data must be for a full year at a 1-minute timestep. The sample climates provided in the climate folder were generated using hourly CWEC weather data processed using the radiation algorithms in TRNSYS.
+   2. **irr_path** is the relative path to the global horizontal irradiance data [W/m2]. The data must be tab or space delimited, with the irradiance data in the *second* column. The data must be for a full year at a 1-minute timestep. The sample climate provided in the `example/climate` folder was generated using hourly CWEC weather data processed using the radiation algorithms in TRNSYS. The path to the file can be relative to where the `Appliance_Lighting_Generator.pl` is located, or a full path.
    3. The **lighting_fixtures** section is populated entries for each individual fixture in the dwelling. Each entry includes the fixture's rated power in Watts, as well as a description. The description is not used by the profile generator, but is included for input documentation.
    4. The **cold_appliances** input includes dwelling fridges and freezers. The following items must be included for each entry:
        - uec - Unit energy consumption of the appliance [kWh/yr];
@@ -82,3 +82,12 @@ The **inputs** section is divided into several subsections:
    3. *Chest_Freezer * - base_cycles = 6116, mean_cycle_L = 14, restart_delay = 56;
 
 The *uec* values were selected from data available in the report titled *Energy consumption of Major Household Appliances Shipped in Canada: Trends for 1990-2010*. 
+
+## Examples
+
+Two example files are provided in the `example` folder: `2PersonApt.xml` and `5PersonApt.xml`. To run the examples, in a terminal navigate to the folder containing the `Appliance_Lighting_Generator.pl` script and use the following command:
+
+```
+perl <PATH_TO_SCRIPTS>/Appliance_Lighting_Generator.pl example/2PersonApt.xml
+```
+

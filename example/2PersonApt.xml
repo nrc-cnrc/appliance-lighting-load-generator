@@ -15,7 +15,7 @@
         <!-- Number of occupants [1-5] -->
         <num_of_occ>2</num_of_occ>
         <!-- Path to irradiance file -->
-        <irr_path>climate/CambridgeBay.out</irr_path>
+        <irr_path>example/climate/CambridgeBay.out</irr_path>
         <!-- Lighting fixture details -->
         <lighting_fixtures>
             <!-- Rated power [W] of each fixture -->
