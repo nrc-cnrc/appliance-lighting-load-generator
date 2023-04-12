@@ -9,7 +9,7 @@
 #         Richardson, I., Thomson, M., Infield, D., & Clifford, C. (2010). Domestic electricity use: A high-resolution 
 #         energy demand model. Energy and buildings, 42(10), 1878-1887.
 #
-#         For latest developments of the CREST model please see https://www.lboro.ac.uk/research/crest/demand-model/
+#         For latest developments of the CREST model please see https://repository.lboro.ac.uk/articles/dataset/CREST_Demand_Model_v2_0/2001129
 #
 # This software is a MODIFICATION and ADAPTATION of the CREST model licensed under the GNU General Public License 
 # version 3. This modified software is documented in the publication:
