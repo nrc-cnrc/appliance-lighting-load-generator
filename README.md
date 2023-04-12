@@ -16,8 +16,6 @@ The modifications implemented in this adaptation of the tool are as follows:
 ## License
 Unless otherwise noted, the source code for this project is protected by the Crown copyright of the Government of Canada and distributed under the [GPLv3 license](LICENSE).
 
-The "Canada" wordmark and related graphic elements relating to this distribution are protected under trademark and copyright laws. No permission is granted for their use outside the parameters of the Government of Canada's Branding Coordination Program. For more information on this subject, please consult the [Branding Requirements](https://www.canada.ca/en/secretariat-conseil-tresor/sujets/communications-gouvernementales/exigences-image-brand.html).
-
 ## Contributing
 When contributing, post comments and discuss changes you wish to make via Issues.
 
