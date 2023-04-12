@@ -19,7 +19,7 @@
 #            demands. Journal of Building Performance Simulation, 11(3), 350-368.
 #
 #===========================================================
-#   Appliance_Lighting_Generator Copyright (C) 2022 National Research Council Canada
+#   Appliance_Lighting_Generator Copyright (C) His Majesty the King in Right of Canada, as represented by the National Research Council of Canada, 2023
 #
 #   Appliance_Lighting_Generator is free software: you can redistribute it and/or modify
 #   it under the terms of the GNU General Public License as published by
