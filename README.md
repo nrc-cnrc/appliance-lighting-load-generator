@@ -2,7 +2,7 @@
 
 Sub-hourly residential appliance and lighting load generator — Générateur de charge subhoraire d'appareils résidentiels et d'éclairage
 
-This set of scripts and subroutines are derived works of the CREST model for generating residential occupancy, and appliance and lighting profiles. The CREST tools and models may be accessed for free [here](https://www.lboro.ac.uk/research/crest/demand-model/) and are distributed under the GNU General Public License version 3. 
+This set of scripts and subroutines are derived works of the CREST model for generating residential occupancy, and appliance and lighting profiles. The CREST tools and models may be accessed for free [here](https://repository.lboro.ac.uk/articles/dataset/CREST_Demand_Model_v2_0/2001129) and are distributed under the GNU General Public License version 3. 
 
 This derived work of the CREST model is for modelling the Canadian residential sector as described in "Adaptation and validation of an existing bottom-up model for simulating temporal and inter-dwelling variations of residential appliance and lighting demands" by A.D Wills, I. Beausoleil-Morrison, and V.I. Ugursal, *Journal of Building Performance Simulation*, Volume 11, 2018 - Issue 3 which may be accessed [here](https://www.tandfonline.com/doi/full/10.1080/19401493.2017.1369570).
 
