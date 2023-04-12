@@ -9,7 +9,7 @@
 #         Richardson, I., Thomson, M., Infield, D., & Clifford, C. (2010). Domestic electricity use: A high-resolution 
 #         energy demand model. Energy and buildings, 42(10), 1878-1887.
 #
-#         For latest developments of the CREST model please see https://www.lboro.ac.uk/research/crest/demand-model/
+#         For latest developments of the CREST model please see https://repository.lboro.ac.uk/articles/dataset/CREST_Demand_Model_v2_0/2001129
 #
 # This software is a MODIFICATION and ADAPTATION of the CREST model licensed under the GNU General Public License 
 # version 3. This modified software is documented in the publication:
@@ -19,7 +19,7 @@
 #            demands. Journal of Building Performance Simulation, 11(3), 350-368.
 #
 #===========================================================
-#   Appliance_Lighting_Generator Copyright (C) 2022 National Research Council Canada
+#   Appliance_Lighting_Generator Copyright (C) His Majesty the King in Right of Canada, as represented by the National Research Council of Canada, 2023
 #
 #   Appliance_Lighting_Generator is free software: you can redistribute it and/or modify
 #   it under the terms of the GNU General Public License as published by
